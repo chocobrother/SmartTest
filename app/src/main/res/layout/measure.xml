@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/plain_back"
+    android:gravity="center"
+    sl:scale_base_height="1920"
+    sl:scale_base_width="1300">
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sl:scale_left="200"
+        sl:scale_top="320"
+        sl:scale_height="700"
+        sl:scale_width="905"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="체중 : "
+        android:textSize="10dp"
+        sl:scale_left="-350"
+        sl:scale_textsize="70"
+        sl:scale_top="150"
+        sl:scale_height="100"
+        sl:scale_width="200"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/weight"
+        android:singleLine="true"
+        sl:scale_left="400"
+        sl:scale_textsize="70"
+        sl:scale_top="1100"
+        sl:scale_height="100"
+        sl:scale_width="650"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/start_btn"
+        android:onClick="onClick"
+        sl:scale_left="30"
+        sl:scale_top="450"
+        sl:scale_height="300"
+        sl:scale_width="500"/>
+
+</com.example.uclab.smarttest.ScalableLayout>

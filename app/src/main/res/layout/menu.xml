@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/plain_back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible"
+    sl:scale_base_height="1920"
+    sl:scale_base_width="1300"
+    tools:ignore="missingPrefix">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/select_menu_text"
+        sl:scale_height="500"
+        sl:scale_left="400"
+        sl:scale_top="400"
+        sl:scale_width="500" />
+
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/history_btn"
+        android:onClick="btnClick"
+        sl:scale_height="500"
+        sl:scale_left="170"
+        sl:scale_top="700"
+        sl:scale_width="300" />
+
+    <Button
+        android:id="@+id/measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/measure_btn"
+        android:onClick="btnClick"
+        sl:scale_height="820"
+        sl:scale_left="480"
+        sl:scale_top="700"
+        sl:scale_width="300" />
+
+    <Button
+        android:id="@+id/testid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="test"
+        sl:scale_height="200"
+        sl:scale_left="780"
+        sl:scale_textsize="50"
+        sl:scale_top="900"
+        sl:scale_width="250" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/setting_btn"
+        android:onClick="btnClick"
+        sl:scale_height="300"
+        sl:scale_left="170"
+        sl:scale_top="1220"
+        sl:scale_width="300" />
+
+
+</com.example.uclab.smarttest.ScalableLayout>
+
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:sl="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:ignore="missingPrefix"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+    android:background="@drawable/main_back"
+    sl:scale_base_height="2000"
+    sl:scale_base_width="1300"
+    sl:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.uclab.smarttest.Main_Login"
+    android:gravity="center"
+    android:baselineAligned="false">
+
+    <ImageView
+        android:layout_marginTop="156dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_title"
+        sl:scale_top="860"
+        sl:scale_left="410"
+        sl:scale_width="500"
+        sl:scale_height="200"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/id_pic"
+        sl:scale_left="270"
+        sl:scale_top="1100"
+        sl:scale_height="70"
+        sl:scale_width="70"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pw"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:hint="아이디"
+        sl:scale_textsize="60"
+        sl:scale_left="350"
+        sl:scale_top="1050"
+        sl:scale_width="650"
+        sl:scale_height="150"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/pw_pic"
+        sl:scale_top="1300"
+        sl:scale_left="270"
+        sl:scale_height="70"
+        sl:scale_width="70"/>
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_btn"
+        android:layout_alignParentStart="true"
+        android:hint="비밀번호"
+        android:singleLine="true"
+        sl:scale_left="350"
+        sl:scale_top="1260"
+        sl:scale_width="650"
+        sl:scale_height="150"
+        sl:scale_textsize="60"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn"
+        android:onClick="btnClick"
+        sl:scale_left="310"
+        sl:scale_top="1470"
+        sl:scale_height="150"
+        sl:scale_width="300"/>
+
+    <Button
+        android:id="@+id/join_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:background="@drawable/join_btn"
+        android:onClick="btnClick"
+        sl:scale_left="670"
+        sl:scale_top="1470"
+        sl:scale_width="300"
+        sl:scale_height="150"/>
+
+</com.example.uclab.smarttest.ScalableLayout>
+

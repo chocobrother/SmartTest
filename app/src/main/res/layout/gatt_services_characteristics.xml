@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    sl:scale_base_height="1900"
+    sl:scale_base_width="1300">
+
+    <TextView
+        android:id="@+id/isSerial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_serial"
+        android:textSize="18sp"
+        sl:scale_left="50"
+        sl:scale_top="140"
+        sl:scale_textsize="60"
+        sl:scale_width="600"
+        sl:scale_height="100"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/measure_graphview_size"
+        sl:scale_top="300"
+        sl:scale_width="1200"
+        sl:scale_height="770"
+        sl:scale_left="50"
+        />
+
+    <TextView
+        android:id="@+id/signal_quality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" "
+        android:textSize="@dimen/measure_fontsize"
+        sl:scale_top="1100"
+        sl:scale_left="50"
+        sl:scale_height="150"
+        sl:scale_width="1200"/>
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/measure_weight"
+        android:textSize="@dimen/measure_fontsize"
+        sl:scale_left="50"
+        sl:scale_top="1290"
+        sl:scale_width="400"
+        sl:scale_height="170"/>
+
+    <TextView
+        android:id="@+id/hrTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/measure_heart"
+        android:textSize="@dimen/measure_fontsize"
+        sl:scale_top="1290"
+        sl:scale_width="400"
+        sl:scale_height="170"
+        sl:scale_left="450"/>
+
+    <TextView
+        android:id="@+id/elpaseTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/measure_elapsetime"
+        android:textSize="@dimen/measure_fontsize"
+        sl:scale_top="1290"
+        sl:scale_width="400"
+        sl:scale_height="170"
+        sl:scale_left="850"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_btn"
+        sl:scale_height="250"
+        sl:scale_left="480"
+        sl:scale_top="1520"
+        sl:scale_width="400" />
+
+</com.example.uclab.smarttest.ScalableLayout>

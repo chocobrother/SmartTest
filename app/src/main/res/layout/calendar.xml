@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    sl:scale_base_height="1920"
+    sl:scale_base_width="1300">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backward"
+        android:gravity="center"
+        android:onClick="onClick"
+        sl:scale_left="460"
+        sl:scale_top="200"
+        sl:scale_height="180"
+        sl:scale_width="180"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        sl:scale_textsize="20"
+        sl:scale_left="640"
+        sl:scale_top="200"
+        sl:scale_width="20"
+        sl:scale_height="180"/>
+
+    <Button
+        android:id="@+id/forw"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forward"
+        android:gravity="center"
+        android:onClick="onClick"
+        sl:scale_left="660"
+        sl:scale_width="180"
+        sl:scale_height="180"
+        sl:scale_top="200"/>
+
+    <TextView
+        android:id="@+id/curText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        sl:scale_top="1500"
+        sl:scale_left="370"
+        sl:scale_height="180"
+        />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="확인"
+        sl:scale_textsize="70"
+        sl:scale_left="10"
+        sl:scale_top="1500"
+        sl:scale_width="350"
+        sl:scale_height="180"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:numColumns="7"
+        sl:scale_height="1100"
+        sl:scale_left="100"
+        sl:scale_top="400"
+        sl:scale_width="1110">
+
+    </GridView>
+
+</com.example.uclab.smarttest.ScalableLayout>

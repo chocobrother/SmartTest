@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.example.uclab.smarttest.ScalableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/plain_back"
+    android:gravity="center"
+    sl:scale_base_height="1920"
+    sl:scale_base_width="1300">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/result_text"
+        sl:scale_left="450"
+        sl:scale_width="500"
+        sl:scale_height="400"
+        sl:scale_top="250"/>
+
+    <TextView
+        android:id="@+id/bmi_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="@dimen/result_fontsize"
+        sl:scale_left="610"
+        sl:scale_textsize="70"
+        sl:scale_top="860"
+        sl:scale_width="100"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/result_textview_margin_bottom"
+        android:layout_marginTop="@dimen/result_textview_margin_top"
+        android:background="@drawable/mean_heartbeat_text"
+        sl:scale_left="570"
+        sl:scale_top="540"
+        sl:scale_width="160"
+        sl:scale_height="110"/>
+
+    <TextView
+        android:id="@+id/body_percentage_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40"
+        android:textSize="@dimen/result_fontsize"
+        sl:scale_left="610"
+        sl:scale_top="1270"
+        sl:scale_textsize="70"
+        sl:scale_width="100"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/result_textview_margin_bottom"
+        android:layout_marginTop="@dimen/result_textview_margin_top"
+        android:background="@drawable/arrhythmia_result_text"
+        sl:scale_left="570"
+        sl:scale_top="1360"
+        sl:scale_width="160"
+        sl:scale_height="110"/>
+
+    <TextView
+        android:id="@+id/af"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="no"
+        android:textSize="@dimen/result_fontsize"
+        sl:scale_left="620"
+        sl:scale_top="1460"
+        sl:scale_textsize="70"
+        sl:scale_width="100"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/result_textview_margin_bottom"
+        android:layout_marginTop="@dimen/result_textview_margin_top"
+        android:background="@drawable/bmi_text"
+        sl:scale_left="570"
+        sl:scale_top="750"
+        sl:scale_width="160"
+        sl:scale_height="110"/>
+
+    <TextView
+        android:id="@+id/avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70"
+        android:textSize="@dimen/result_fontsize"
+        sl:scale_left="610"
+        sl:scale_top="650"
+        sl:scale_textsize="70"/>
+
+    <TextView
+        android:id="@+id/body_fat_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="@dimen/result_fontsize"
+        sl:scale_textsize="70"
+        sl:scale_width="100"
+        sl:scale_left="610"
+        sl:scale_top="1070"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/result_textview_margin_bottom"
+        android:layout_marginTop="@dimen/result_textview_margin_top"
+        android:background="@drawable/fatpercent_text"
+        sl:scale_left="570"
+        sl:scale_top="1160"
+        sl:scale_width="160"
+        sl:scale_height="110"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/result_textview_margin_bottom"
+        android:layout_marginTop="@dimen/result_textview_margin_top"
+        android:background="@drawable/fat_text"
+        sl:scale_height="110"
+        sl:scale_left="570"
+        sl:scale_top="960"
+        sl:scale_width="160" />
+
+</com.example.uclab.smarttest.ScalableLayout>

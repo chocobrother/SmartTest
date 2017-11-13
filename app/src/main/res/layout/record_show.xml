@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    sl:scale_base_height="1920"
+    sl:scale_base_width="1300">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="평균 심박수 : "
+        sl:scale_textsize="70"
+        sl:scale_top="400"
+        sl:scale_left="-300"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        sl:scale_textsize="70"
+        sl:scale_top="400"
+        sl:scale_left="120"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="체지방량 : "
+        sl:scale_textsize="70"
+        sl:scale_top="560"
+        sl:scale_left="-300"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/fm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        sl:scale_textsize="70"
+        sl:scale_top="560"
+        sl:scale_left="120"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="체지방률 : "
+        sl:scale_textsize="70"
+        sl:scale_top="720"
+        sl:scale_left="-300"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/bf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        sl:scale_textsize="70"
+        sl:scale_top="720"
+        sl:scale_left="120"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="몸무게 : "
+        sl:scale_textsize="70"
+        sl:scale_top="880"
+        sl:scale_left="-300"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        sl:scale_textsize="70"
+        sl:scale_top="880"
+        sl:scale_left="120"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="BMI : "
+        sl:scale_textsize="70"
+        sl:scale_top="1040"
+        sl:scale_left="-300"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        sl:scale_textsize="70"
+        sl:scale_top="1040"
+        sl:scale_left="120"
+        sl:scale_width="400"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="AF : "
+        sl:scale_textsize="70"
+        sl:scale_top="1200"
+        sl:scale_left="-300"
+        sl:scale_width="400"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="확인"
+        sl:scale_top="1500"
+        sl:scale_width="350"
+        sl:scale_height="180"
+        sl:scale_textsize="70"
+        />
+
+    <TextView
+        android:id="@+id/af"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        sl:scale_textsize="70"
+        sl:scale_top="1200"
+        sl:scale_left="120"
+        sl:scale_width="400"/>
+
+</com.example.uclab.smarttest.ScalableLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/plain_back"
+    android:gravity="center"
+    sl:scale_base_height="2000"
+    sl:scale_base_width="1300">
+
+    <ImageView
+        android:id="@+id/cal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:src="@drawable/calendar"
+        sl:scale_left="250"
+        sl:scale_top="350"
+        sl:scale_width="300"
+        sl:scale_height="400"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~"
+        android:textSize="100dp"
+        sl:scale_textsize="300"
+        sl:scale_top="350"
+        sl:scale_left="560"
+        sl:scale_height="250"
+        sl:scale_width="200"
+        />
+
+    <ImageView
+        android:id="@+id/cal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:src="@drawable/calendar"
+        sl:scale_left="770"
+        sl:scale_top="350"
+        sl:scale_width="300"
+        sl:scale_height="400"/>
+
+    <TextView
+        android:id="@+id/forText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000-00-00"
+        android:textSize="@dimen/record_font_size"
+        sl:scale_top="1000"
+        sl:scale_left="250"
+        sl:scale_width="500"
+        sl:scale_height="100"
+        sl:scale_textsize="70"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ~ "
+        android:textSize="@dimen/record_font_size"
+        sl:scale_left="590"
+        sl:scale_width="100"
+        sl:scale_height="100"
+        sl:scale_top="970"/>
+
+    <TextView
+        android:id="@+id/backText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000-00-00"
+        android:textSize="@dimen/record_font_size"
+        sl:scale_top="1000"
+        sl:scale_left="700"
+        sl:scale_width="500"
+        sl:scale_height="100"
+        sl:scale_textsize="70"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/start_btn"
+        android:onClick="onClick"
+        sl:scale_left="50"
+        sl:scale_top="1300"
+        sl:scale_height="300"
+        sl:scale_width="500"/>
+
+</com.example.uclab.smarttest.ScalableLayout>

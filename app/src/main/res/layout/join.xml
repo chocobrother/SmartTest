@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uclab.smarttest.ScalableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="missingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/plain_back"
+    android:gravity="center"
+    sl:scale_base_height="1920"
+    sl:scale_base_width="1300">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/join_top_text"
+        sl:scale_left="400"
+        sl:scale_top="300"
+        sl:scale_width="500"
+        sl:scale_height="200"/>
+
+    <CheckBox
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="남"
+        android:textSize="10dp"
+        sl:scale_textsize="50"
+        sl:scale_left="-100"
+        sl:scale_top="500"
+        sl:scale_width="200"
+        sl:scale_height="70"/>
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:text="여"
+        android:textSize="10dp"
+        sl:scale_textsize="50"
+        sl:scale_left="130"
+        sl:scale_width="200"
+        sl:scale_height="70"
+        sl:scale_top="500"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/joint_textview_layout_margin_top"
+        android:text="@string/id"
+        android:textSize="@dimen/font_size"
+        sl:scale_left="200"
+        sl:scale_top="800"
+        sl:scale_textsize="70"
+        sl:scale_height="100"
+        sl:scale_width="300"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/joint_textview_layout_margin_top"
+        android:text="@string/passwd"
+        android:textSize="@dimen/font_size"
+        sl:scale_left="200"
+        sl:scale_top="950"
+        sl:scale_textsize="70"
+        sl:scale_height="100"
+        sl:scale_width="300"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/joint_textview_layout_margin_top"
+        android:text="@string/age"
+        android:textSize="@dimen/font_size"
+        sl:scale_left="200"
+        sl:scale_top="1100"
+        sl:scale_textsize="70"
+        sl:scale_height="100"
+        sl:scale_width="300"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/joint_textview_layout_margin_top"
+        android:text="@string/height"
+        android:textSize="@dimen/font_size"
+        sl:scale_left="200"
+        sl:scale_top="1250"
+        sl:scale_textsize="70"
+        sl:scale_height="100"
+        sl:scale_width="300"/>
+
+    <EditText
+        android:id="@+id/e_id"
+        android:layout_width="@dimen/join_edittext_layout_width"
+        android:layout_height="@dimen/join_edittext_layout_height"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size"
+        sl:scale_textsize="70"
+        sl:scale_top="800"
+        sl:scale_height="100"
+        sl:scale_width="400"
+        sl:scale_left="700"/>
+
+    <EditText
+        android:id="@+id/e_pw"
+        android:layout_width="@dimen/join_edittext_layout_width"
+        android:layout_height="@dimen/join_edittext_layout_height"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size"
+        sl:scale_textsize="70"
+        sl:scale_top="950"
+        sl:scale_height="100"
+        sl:scale_width="400"
+        sl:scale_left="700"/>
+
+    <EditText
+        android:id="@+id/e_age"
+        android:layout_width="@dimen/join_edittext_layout_width"
+        android:layout_height="@dimen/join_edittext_layout_height"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size"
+        sl:scale_textsize="70"
+        sl:scale_top="1100"
+        sl:scale_height="100"
+        sl:scale_width="400"
+        sl:scale_left="700"/>
+
+    <EditText
+        android:id="@+id/e_height"
+        android:layout_width="@dimen/join_edittext_layout_width"
+        android:layout_height="@dimen/join_edittext_layout_height"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size"
+        sl:scale_textsize="70"
+        sl:scale_top="1250"
+        sl:scale_height="100"
+        sl:scale_width="400"
+        sl:scale_left="700"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/joint_button_layout_margin_top"
+        android:background="@drawable/join_ok_btn"
+        android:onClick="onClick"
+        sl:scale_width="300"
+        sl:scale_height="150"
+        sl:scale_top="1500"
+        sl:scale_left="0"/>
+
+</com.example.uclab.smarttest.ScalableLayout>
